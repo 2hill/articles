@@ -1,0 +1,48 @@
+body, html {
+  margin:0px;
+  background-color: red;
+  width: 100%;
+}
+.imageflottante {
+  float:left;
+    top: 10px;
+    left: 10px;
+  border: 3px blue dashed;
+}
+article {
+  position: relative;
+  margin: 10px;
+  background-color: grey;
+  color: yellow;
+  border:1px solid #aaa;
+  width:calc(50% - 20px);
+  float: left;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 10px;
+}
+button {
+position: absolute;
+top:5px;
+right:5px;
+border: 0.1px solid black;
+border-radius: 5px;
+background-color: red;
+color: white;
+}
+h2 {
+  color: yellow;
+}
+.suite {
+  transition: transform 2s;
+  float:left;
+}
+.container {
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+article:hover .suite {
+transform: scale(1.2);
+color: blue;
+}
